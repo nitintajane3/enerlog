@@ -32,7 +32,7 @@ public class TestUtils extends TestBase
 	public static int PAGELOAD = 20;
 	public static int IMPLICIT = 10;
 
-	public static String newtestfilename = "C:\\Users\\Admin\\eclipse-workspace\\enerlog\\src\\main\\java\\com\\qa\\enerlog\\testdata\\autoationtestdata.xlsx";
+	public static String newtestfilename = "C:\\Users\\Admin\\git\\enerlog\\enerlog\\src\\main\\java\\com\\qa\\enerlog\\testdata\\autoationtestdata.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;

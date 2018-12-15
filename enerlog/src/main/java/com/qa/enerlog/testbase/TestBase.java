@@ -52,19 +52,19 @@ public class TestBase
 		
 		if(browsername.equals("chrome")) 
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\eclipse-workspace\\enerlog\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Admin\\git\\enerlog\\enerlog\\drivers\\chromedriver.exe");
 			driver =  new ChromeDriver();
 			
 		}else 
 			if (browsername.equals("firefox")) 
 			{
-				System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\eclipse-workspace\\enerlog\\drivers\\geckodriver.exe");
+				System.setProperty("webdriver.gecko.driver", "C:\\Users\\Admin\\git\\enerlog\\drivers\\geckodriver.exe");
 				driver = new FirefoxDriver();
 			}else 
 			
 		if (browsername.equals("ie")) 
 		{
-			System.setProperty("webdriver.ie.driver", "C:\\Users\\Admin\\eclipse-workspace\\enerlog\\drivers\\IEDriverServer.exe");
+			System.setProperty("webdriver.ie.driver", "C:\\Users\\Admin\\git\\enerlog\\drivers\\IEDriverServer.exe");
 			
 			driver = new InternetExplorerDriver();
 		}
